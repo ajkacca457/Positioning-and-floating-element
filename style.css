@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  height: 50px;
+  border-bottom: 1px solid grey;
+  position: fixed;
+  width: 100%;
+}
+
+#nyt {
+  width: 196px;
+  height:auto;
+}
+
+.first {
+  margin-left: 10px;
+}
+.btnst {
+  margin-right: 10px;
+}
+
+.mr {
+  margin-right:15px;
+}
+
+.ml {
+  margin-left: 15px;
+}
+
+.first a {
+  text-decoration: none;
+  color:black;
+  font-family: Libre Franklin,helvetica,arial,sans-serif;
+  font-weight: bold;
+
+}
+
+.btn {
+  background-color: #557A95;
+  color:white;
+  border-radius: 5px;
+  height: 32px;
+  border: none;
+  padding: 10px;
+  font-size:13px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
