@@ -149,7 +149,6 @@ h1 {
   font-style: italic;
 }
 
-
 .firstleg {
   width: 70%;
 }
@@ -157,7 +156,7 @@ h1 {
 .caption {
   font-size: 15px;
   line-height: 1.2em;
-  color:grey;
+  color: grey;
 }
 
 #infaltion-section {
