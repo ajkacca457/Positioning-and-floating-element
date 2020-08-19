@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   padding: 0;
@@ -5,11 +7,14 @@ body {
   font-family: Domine, georgia, "times new roman", times, serif;
 }
 
+/*common class for displaying flex item  */
 .flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+/*navigation bar  */
 
 .nav {
   height: 50px;
@@ -60,6 +65,8 @@ body {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+/*styling for main section */
 .center {
   text-align: center;
 }
@@ -73,7 +80,7 @@ main {
   position: absolute;
   right: 60px;
   width: 20%;
-  height: 100%;
+  height: auto;
 }
 
 .right-side img {
@@ -142,6 +149,7 @@ h1 {
   width: 70%;
   height: auto;
 }
+/*Advertise and subscribe*/
 
 .times {
   width: 50%;
@@ -204,6 +212,9 @@ span {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+/*displayed articles styling*/
+
 .suggested-art {
   display: grid;
   grid-template-areas:
@@ -257,6 +268,8 @@ span {
 .border-top {
   border-top: 1px solid black;
 }
+
+/*styling for footer*/
 
 footer {
   width: 80%;
