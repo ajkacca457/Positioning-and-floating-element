@@ -136,7 +136,7 @@ p {
   text-align: left;
 }
 
-legend {
+small {
   color: grey;
   margin: 10px 0 10px 0;
 }
@@ -149,8 +149,15 @@ h1 {
   font-style: italic;
 }
 
+
 .firstleg {
   width: 70%;
+}
+
+.caption {
+  font-size: 15px;
+  line-height: 1.2em;
+  color:grey;
 }
 
 #infaltion-section {
