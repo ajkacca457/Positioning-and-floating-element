@@ -138,15 +138,16 @@ span {
     "moreinspace mostpopular"
     "editorpick mostpopular";
   grid-template-columns: 75% 25%;
-  grid-template-rows: 70% 30%;
+  grid-template-columns: auto 25%;
+
 }
 #moreinspace {
   grid-area: moreinspace;
-  background-color: blue;
+  padding: 10px;
 }
 #editorpick {
   grid-area: editorpick;
-  background-color: green;
+  padding: 10px;
 }
 #mostpopular {
   grid-area: mostpopular;
@@ -162,4 +163,30 @@ span {
   margin: 20px 0 20px 0;
   border-top: 1px solid gray;
   padding-top: 15px;
+}
+
+.item-cont {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+
+}
+
+.item {
+  padding: 10px;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+.legright {
+  text-align: right;
+}
+
+.mt {
+  margin-top: 5px;
+}
+.mb {
+  margin-bottom: 5px;
 }
