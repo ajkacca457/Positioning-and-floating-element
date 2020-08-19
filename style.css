@@ -93,11 +93,45 @@ legend {
 }
 h1 {
   font-size: 36px;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  font-style: italic;
 }
+
+.firstleg {
+width: 70%;
+}
+
+
 #infaltion-section {
   margin: 10px auto 50px auto;
   width: 70%;
   height: auto;
+}
+
+.times {
+  width: 50%;
+  margin: 20px auto;
+}
+
+.times a {
+  margin-top:2px;
+  text-decoration: none;
+  color:#557a95;
+}
+
+.mediumf {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+
+.line {
+  background-color: #557a95;
+  width: 20%;
+  margin: 2% auto;
+  height: 1px;
+  opacity: .5;
 }
 
 #video {
@@ -112,6 +146,11 @@ iframe {
 .smalllegend {
   font-size: 12px;
 }
+
+.esmalllegend {
+  font-size: 10px;
+}
+
 span {
   color: black;
 }
@@ -210,4 +249,15 @@ ul {
 }
 .bolder {
   font-weight: bolder;
+}
+
+#subscribe {
+  border-left: 1px solid rgba(171, 172, 170, 0.69);
+  padding-left:20px;
+}
+
+
+.bt {
+  border-bottom:1px solid rgba(171, 172, 170, 0.69);
+  padding-bottom: 10px;
 }
