@@ -122,6 +122,7 @@ span {
 
 .comment {
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .icon {
@@ -139,26 +140,23 @@ span {
     "editorpick mostpopular";
   grid-template-columns: 75% 25%;
   grid-template-columns: auto 25%;
-
+  width: 80%;
+  margin: 1px auto;
+  padding: 20px;
 }
 #moreinspace {
   grid-area: moreinspace;
-  padding: 10px;
+  margin-bottom: 20px;
 }
 #editorpick {
   grid-area: editorpick;
-  padding: 10px;
 }
 #mostpopular {
   grid-area: mostpopular;
-  padding: 10px;
+
+  margin-left: 50px;
 }
-.suggested-art {
-  width: 90%;
-  height: auto;
-  margin: auto;
-  padding: 20px;
-}
+
 .pop-art {
   margin: 20px 0 20px 0;
   border-top: 1px solid gray;
@@ -166,14 +164,9 @@ span {
 }
 
 .item-cont {
-  display:grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap:10px;
-
-}
-
-.item {
-  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
 }
 
 .item img {
@@ -189,4 +182,32 @@ span {
 }
 .mb {
   margin-bottom: 5px;
+}
+.border-top {
+  border-top: 1px solid black;
+}
+
+footer {
+  width: 80%;
+  margin: 1px auto;
+  padding: 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+ul {
+  list-style-type: none;
+  line-height: 28px;
+  font-size: 14px;
+  margin: 0 20px 0 0;
+  padding-inline-start: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.bolder {
+  font-weight: bolder;
 }
