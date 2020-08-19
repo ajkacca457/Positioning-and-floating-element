@@ -1,8 +1,8 @@
 <h1>#Positioning and floating element</h1>
 
-This project is a clone of The New York Times newspaper interface. The aim of this project was to recreate The New York Times design using html,css and css positioning technologies. 
+This project is a clone of The New York Times newspaper interface. The aim of this project was to recreate The New York Times design using html,css and css positioning technologies.
 
-<img src="images/work.PNG" alt="projectimg">
+<img src="images/work.png" alt="projectimg">
 
 </h1>Additional description about the project and its features.</h1>
 
@@ -12,7 +12,7 @@ Html
 
 CSS
 
-Atom editor, Visual code 
+Atom editor, Visual code
 
 <h2>Live Demo</h2>
 https://nytclone.netlify.app/
@@ -28,7 +28,7 @@ Text editor,Github profile and Git.
 
 👤 Author1
 
-Github: @ajkacca457 
+Github: @ajkacca457
 
 Twitter: @ajkacca
 
@@ -36,7 +36,7 @@ Linkedin: https://www.linkedin.com/in/avijit-karmaker-8738a54a/
 
 👤 Author2
 
-Github: @khalilhamdii 
+Github: @khalilhamdii
 
 Linkedin: https://www.linkedin.com/in/khalilhamdi/
 
